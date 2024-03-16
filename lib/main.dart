@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:to_do_provider/home_screen.dart';
-import 'package:to_do_provider/todo_provider.dart';
+import 'package:to_do_provider/screens/home_screen.dart';
+import 'package:to_do_provider/provider/todo_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.deepPurple,
           useMaterial3: false,
         ),
+        // theme: ThemeData.dark(),
         debugShowCheckedModeBanner: false,
         home: const HomeScreen(),
       ),
