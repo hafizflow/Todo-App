@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:to_do_provider/widgets/CustomDialog.dart';
+import 'package:to_do_provider/widgets/custom_dialog.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('My Todos'),
+        title: const Text('My Tasks'),
         centerTitle: true,
       ),
       body: ListView.builder(

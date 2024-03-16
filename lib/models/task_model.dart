@@ -1,9 +1,9 @@
-class TodoModel {
+class TaskModel {
   final String title;
   final String date;
   final String time;
 
-  TodoModel({
+  TaskModel({
     required this.title,
     required this.date,
     required this.time,
